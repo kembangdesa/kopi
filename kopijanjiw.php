@@ -9,9 +9,8 @@ $nope = '0812'.random(8,0);
 $dev = random(16,1);
 $na = explode(" ", nama());
 
-echo "[+] Janji Jiwa Account Creator - By: Kintil Monyet\n";
 echo "[+] Nomer HP: $nope\n";
-echo "[+] PIN: 121212\n";
+echo "[+] PIN: 123123\n";
 
 $cek = curl('https://api.jiwa.app/api/users/phone/check', '{"device_id":"'.$dev.'","phone":"'.$nope.'"}', $headers);
 if (strpos($cek[1], 'Anda akan mendaftar')) {
