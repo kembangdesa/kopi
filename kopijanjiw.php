@@ -125,4 +125,3 @@ function random($length,$a)
 		}
 		return $str;
 	}
-
