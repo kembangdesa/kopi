@@ -1,1 +1,1 @@
-Auto Create Janjiw Account
+Auto Create Janjiw
